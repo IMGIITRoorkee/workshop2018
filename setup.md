@@ -12,10 +12,10 @@ $ mysql -u root -p // For linux and mac users
 > use workshop;
 > create table blog_post (
       id int(6) unsigned primary key auto_increment,
-      post_title varchar(255),
+      post_title varchar(255) NOT NULL,
       post_content text,
-      author varchar(255),
-      posted_on date
+      author varchar(255) NOT NULL,
+      posted_on date NOT NULL
     );
 ```
 
