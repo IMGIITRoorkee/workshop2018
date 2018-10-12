@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <title>IMG Workshop '18</title>
+    <link rel="stylesheet" href="blog.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-sm">
+        <a class="navbar-brand" href="https://img.channeli.in"> <h3>Workshop '18</h3> </a>
+        <a href="blog.php"><h3>Blogs</h3></a>
+    </nav>
+
+    <div class="container card col-sm-7">
+        
+        <div class="form-header">
+                <h3> Add Your Blog </h3>
+        </div>
+    
+        <form action ="insert.php" method="POST"> 
+            <!-- Blog Title field -->
+            <div class="form-group">
+                <label for="post_title">Post Title :</label>
+                <input type="text" id="post_title" name="post_title" class="form-control"/>
+            </div>
+            <!-- Blog Content field -->
+            <div class="form-group">
+                <label for="content">Content :</label>
+                <textarea id="content" name="content" class="form-control" rows="6"></textarea>
+            </div>
+            <!-- Blog Author Field -->
+            <div class="form-group">
+                <label for="author">Author Name : </label>
+                <input type="text" id="author" name="author" class="form-control"/>
+            </div>
+            <!-- Submit form to DataBase -->
+            <button type="submit" class="btn">Submit</button>
+        </form>
+        
+    </div>
+
+</body>
+
+</html>
+
