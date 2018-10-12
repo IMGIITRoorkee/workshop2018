@@ -1,9 +1,9 @@
 # Building your first dynamic web application
 
-This is the repository of the application developed during a workshop conducted on 15 October 2017 by [IMG](http://img.channeli.in) at IIT Roorkee.
+This is the repository of the application developed during a workshop conducted on 14 October 2018 by [IMG](http://img.channeli.in) at IIT Roorkee.
 
 ## Application developed: [Blogger](https://www.blogger.com/about)
-The main objective of the workshop was to develop a dynamic application in a limited time of 3 hours.
+The main objective of the workshop was to develop a dynamic application in a limited time of 4 hours.
 
 ## Technologies used (LAMP, WAMP or MAMP)
 * PHP
@@ -57,12 +57,8 @@ Detailed guidelines for setting up the project can be viewed at [SETUP.md](https
 * Frontend and backend validations for user signup
   * https://www.w3schools.com/php/php_form_validation.asp
   * https://www.w3schools.com/js/js_validation.asp
-* Show all the pastes of a particular user
-* Being able to edit a paste (Add authentication)
-* Make pastes public, private, and visible to certain users (Add flags)
 * Use sessions (https://www.w3schools.com/php/php_sessions.asp)
 * Use cookies (https://www.w3schools.com/php/php_cookies.asp)
-* Support pastebin code formatting (There are various code formatters available)
 * Provide an option to login with facebook, google and github (Find a way to do it)
 * Host your app somewhere so that people can see your app live in action
 and a lot more.
