@@ -27,6 +27,8 @@ The main objective of the workshop was to develop a dynamic application in a lim
 ## Reading material
 * HTML, CSS and JS
   * https://www.w3schools.com/
+  * https://learn.shayhowe.com/
+  * https://javascript.info/
 
 * PHP
   * https://www.w3schools.com/php/ (Basics of PHP)
